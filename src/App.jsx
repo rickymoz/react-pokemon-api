@@ -4,10 +4,8 @@ import "./App.css";
 
 const App = () => {
   const [pokemonList, setPokemonList] = useState([
-    "pikachu",
-    "charmander",
-    "squirtle",
-    "charizard",
+    "bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard",
+    "squirtle", "wartortle", "blastoise", "pikachu", "raichu", "jigglypuff",
   ]);
   const [selectedPokemon, setSelectedPokemon] = useState("pikachu");
   const [pokemon, setPokemon] = useState();
