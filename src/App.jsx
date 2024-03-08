@@ -7,7 +7,7 @@ const App = () => {
     "bulbasaur", "ivysaur", "venusaur", "charmander", "charmeleon", "charizard",
     "squirtle", "wartortle", "blastoise", "pikachu", "raichu", "jigglypuff",
   ]);
-  const [selectedPokemon, setSelectedPokemon] = useState("pikachu");
+  const [selectedPokemon, setSelectedPokemon] = useState(pokemonList[0]);
   const [pokemon, setPokemon] = useState();
 
   useEffect(() => {
